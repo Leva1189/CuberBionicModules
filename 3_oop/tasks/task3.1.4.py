@@ -28,7 +28,7 @@ Car2 = car("Audi", "A6", 2015, 15000)
 Car3 = car("Mercedes", "E-class", 2018, 20000)       
 
 Dealer1 = AutoSalon("AutoRia", (Car1, Car2))
-Dealer2 = AutoSalon("AutoService", [Car3])
+Dealer2 = AutoSalon("AutoService", Car3)
 
 Dealer_list = [Dealer1, Dealer2]
 print(Dealer_list)
